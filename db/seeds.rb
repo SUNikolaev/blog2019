@@ -5,8 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+user = User . create(login: 'admin', admin: true, password: 's5660s26s450', password_confirmation: 's5660s26s450' )
+
 100.times do
   Post.create(title: Faker::Lorem.sentence,
-              author: Faker::Name.name,
+              user: User.first,
               body: Faker::Lorem.paragraph)
 end

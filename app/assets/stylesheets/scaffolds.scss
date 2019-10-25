@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #000000;
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -81,4 +81,15 @@ div {
 
 label {
   display: block;
+}
+.Post {
+  text-align: left;
+  background-color: black;
+  border-style: solid;
+  color: white;
+  border-color: #de4040;
+  border-width: 5px 10px 15px 3px;
+}
+.BlackColor {
+
 }
